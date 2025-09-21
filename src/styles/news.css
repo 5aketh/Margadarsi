@@ -1,0 +1,48 @@
+.news-container {
+  width: 80%;
+  height: auto;
+  border-radius: 2vh;
+  background-color: white;
+  padding: 2vh;
+  margin: auto;
+  margin-top: 2vh;
+}
+
+.news-container:hover {
+  cursor: pointer;
+}
+
+.news-container a {
+  text-decoration: none;
+}
+
+.news-container h3 {
+  font-size: 3vh;
+  font-weight: bold;
+  color: black;
+  margin: 1% 0 1% 0;
+}
+
+.news-container p {
+  font-size: 2vh;
+  color: gray;
+  margin: 0 0 2% 0;
+}
+
+.news-container h4 {
+  font-size: 2.5vh;
+  font-weight: normal;
+  color: #000;
+  margin: 3% 0 3% 0;
+}
+
+.skill-badge {
+  display: inline-block;
+  background-color: #ff6f61;
+  color: #fff;
+  font-weight: 600;
+  padding: 0.5vh 1vh;
+  border-radius: 1vh;
+  font-size: 2vh;
+  margin: 0.5vh;
+}

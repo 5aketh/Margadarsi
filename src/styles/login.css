@@ -1,0 +1,110 @@
+.login-container {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background-color: #f8f1eb;
+    color: rgb(0, 0, 0);
+}
+
+.login-box {
+    border-radius: 20px;
+    background: white;
+    margin-left: 2vw;
+    margin-left: 2vw;
+}
+
+    /* Left Slideshow */
+.left-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 50%;
+    width: 30%;
+    padding: 0;
+    top: 10%;
+    right: 5%;
+}
+
+@keyframes progress {
+    from { width: 0%; }
+    to { width: 100%; }
+}
+
+    /* Right login box */
+.right-box {
+    width: 40%;
+    height: 70%;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.right-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px 40px 10px 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.input-group input[type="password"] {
+    width: 85%;
+}
+
+.toggle-btn {
+    position: relative;
+    top: 1vh;
+    background: none; 
+    cursor: pointer;
+    margin-left: 5%;
+    margin-right: 4%;
+    font-size: 14px;
+    border: none;
+    color: #ff6f61;
+    padding: 0%;
+}
+
+.right-box button[type="submit"] {
+    width: max-content;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    background: #ff6f61;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    align-self: end;
+}
+
+.create {
+    width: max-content;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    color: #ff6f61;
+    background: transparent;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    align-self: end;
+}
+
+.right-box button[type="submit"]:hover {
+    background: #ee6f61;
+}
